@@ -19,9 +19,12 @@ function logLastname(name) {
 function introducePerson(firstname, lastname) {
   return `Bonjour, je m'appelle ${firstname} ${lastname}`;
 }
-// Quand on assigne l'appel d'une fonction, on assigne en fait le RETOUR de la fonction
+// Quand on assigne l'appel d'une fonction, on assigne en fait le RETOUR de la fonction. presentation est de type "String"
 const presentation = introducePerson("Bob", "Dylan");
 
+// Quand on assigne le nom d'une fonction à une variable, on assigne une référence à la fonction. On peut dire ici que presentation_bis est un alias de introducePerson
+// presentation est de type "function"
 const presentation_bis = introducePerson;
 
 console.log(presentation);
+console.log(presentation_bis);
