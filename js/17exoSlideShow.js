@@ -5,7 +5,7 @@ class Slideshow {
     this.height = height;
     this.speed = speed;
 
-    this.images = this.feedSs(0);
+    this.images = this.feedSs();
     this.animateSs(0);
   }
   /**
