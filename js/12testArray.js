@@ -19,3 +19,10 @@ fruits.forEach((fruit, index) => {
 
 const shop_list = ["lait", "beurre", "salade"];
 // Créer une nouveau tableau qui encapsule chaque élement du tableau entre les balises <li></li>. Ex :"lait" =>  "<li>lait</li>" Utilisez pour cela la méthode map. Vérifiez si cette méthode est pure ou impure
+
+const people = [
+  { name: "Dylan", age: 78 },
+  { name: "Souchon", age: 62 },
+  { name: "Prince", age: 17 },
+];
+// Créer un nouveau tableau qui ne comprend que des personnes de plus de 50 ans : utiliser pour cela la méthode filter
